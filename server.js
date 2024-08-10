@@ -4,7 +4,7 @@ const axios =  require('axios');
 const app = express();
 const port = 3000;
 
-const cepRegex = /^[0-9]{5}-?[09]{3}$/;
+const cepRegex = /^[0-9]{5}-?[0-9]{3}$/;
 
 app.get('/', (_, res) => {
     res.send('Hello world!');
