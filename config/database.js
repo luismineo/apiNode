@@ -1,8 +1,8 @@
 module.exports = {
     dialect: 'postgres',
     host: 'localhost',
-    username: 'admin',
-    password: 'admin',
+    username: 'postgres',
+    password: 'root',
     database: 'apinode',
     define: {
         timestamps: true,

@@ -47,4 +47,4 @@ Endereco.init({
     timestamps: true,
 });
 
-    module.exports = Endereco;
+module.exports = Endereco;
