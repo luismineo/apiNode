@@ -5,7 +5,7 @@ module.exports = {
     password: 'root',
     database: 'apinode',
     define: {
-        timestamps: true,
-        underscored: true
+        timestamps: false,
+        underscored: false
     }
 };
